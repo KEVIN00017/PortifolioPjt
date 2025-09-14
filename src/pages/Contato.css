@@ -1,11 +1,131 @@
 
-.container3{
-    height: 100vh;
-    width: 100%;
-    background-color: rgba(137, 43, 226, 0.137);
-    position: relative;
-  
-}
 body{
   background: black;
+}
+.geral{
+  height: 100vh;
+    width: 100%;
+    background-color: rgba(67, 58, 117, 0.199);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container3{
+    height: 90vh;
+    width: 100%;
+    
+    position: relative;
+    display: flex;
+    gap: 4%;
+    align-items: center;
+    justify-content: center;    
+    flex-wrap: wrap;
+    flex-grow: initial;
+  
+}
+
+
+.card{
+  width: 400px;
+  min-height: 570px;
+  background-color: rgba(137, 43, 226, 0.541);
+  border-radius: 10%;
+  transition: all,ease,1s;
+  padding: 15px;
+  transition: all,ease,1s;
+  box-shadow: -10px 20px 10px rgba(137, 43, 226, 0.377);
+}
+
+.contato{
+  display: flex;
+  width: 90%;
+  height: 22vh;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 5%;
+  
+  
+}
+.foto1{
+  display: flex;
+  width: 80%;
+  height: 25vh;
+  border-radius: 10%;
+   box-shadow: 0px 5px 90px rgba(0, 0, 0, 0.911);
+   background-image: url("../assets/Gmail.webp");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   filter: blur(1.5px);
+}
+.foto2{
+  display: flex;
+  width: 80%;
+  height: 25vh;
+  border-radius: 10%;
+   box-shadow: 0px 5px 90px rgba(0, 0, 0, 0.911);
+   background-image: url("../assets/wpp.webp");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   filter: blur(1.5px);
+}
+.inf{
+  color: white;
+  font-size: x-large;
+  font-weight: 700;
+  letter-spacing: 2px;
+ 
+}
+
+.co{
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15%;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.863);
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.39);
+  transition: all,ease,1s;
+}
+.back{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  
+  
+  
+}
+.button{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  bottom: 7%;
+}
+#Button{
+  width: 40%;
+  background-color: rgba(137, 43, 226, 0.733);
+}
+.card:hover{
+  background-color: rgba(87, 11, 158, 0.822);
+  box-shadow: -60px 40px 10px rgba(137, 43, 226, 0.253);
+  position: relative;
+ 
+}
+.co:hover{
+  background-color: rgba(0, 0, 0, 0.726)
+}
+#card2{
+  box-shadow: 10px 20px 10px rgba(137, 43, 226, 0.377);
+}
+#card2:hover{
+  box-shadow: 60px 40px 10px rgba(137, 43, 226, 0.26);
 }

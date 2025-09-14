@@ -2,7 +2,7 @@ import "./home.css"
 import { SlSocialGithub } from "react-icons/sl";
 import { SlSocialLinkedin } from "react-icons/sl";
 import {motion} from "framer-motion"
-import Orb from '../components/Orb';
+import Orb from '../components/Orb' ;
 
 function Home(){
     return(
@@ -17,7 +17,7 @@ function Home(){
 
   
 </div>
-        <div className="Main">
+        <div className="Main" id="SOBRE">
 
         <motion.div className="redes"
         initial={{x:-550,opacity:0}}
@@ -40,7 +40,7 @@ function Home(){
                 
         <motion.h1
         initial={{y:-500,opacity:0}}
-             animate={{y:0,opacity:1}}
+             animate={{y:0, opacity:1}}
              transition={{
                 duration:1,
             ease:"easeInOut"
@@ -50,7 +50,7 @@ function Home(){
   </motion.h1>
   <motion.p className="apresentacao"
     initial={{y:550,opacity:0}}
-    animate={{y:0,opacity:1}}
+        whileInView={{y:0, opacity:1}}
     transition={{
         duration:1.5,
         ease:"easeInOut"
@@ -70,7 +70,7 @@ function Home(){
 
         <motion.div className="links"
         initial={{y:50,opacity:0}}
-        animate={{y:0, opacity:1}}
+        whileInView={{y:0, opacity:1}}
         transition={
             {
                 duration:2,
